@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>ETCH-A-SKETCH</title>
 </head>
 <body>
 <h1>ETCH-A-SKETCH</h1>
@@ -16,16 +16,19 @@
     <div class="etchScreen">
     </div>
     <div class="buttons">
-        <div class="choose">Color Mode</div>
+        <div class="color">Color Mode</div>
         <div class="rainbow">Rainbow Mode</div>
         <div class="erase">Eraser</div>
         <div class="clear">Clear</div>
     </div>
-    <div class="slidecontainer">
+    <div class="slideContainer">
         <p class="chooseSize">Choose the Size of your Grid:</p>
-        <input type="range" value="24" min="16" max="100" oninput="this.nextElementSibling.value = this.value" class="slider" id="myRange"><output class="rangeValue">24</output>
+        <p class="option1">15x15</p>
+        <p class="option2">30x30</p>
+        <p class="option3">45x45</p>
+        <p class="option4">60x60</p>
     </div>
 </div>
-<script src="./main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
