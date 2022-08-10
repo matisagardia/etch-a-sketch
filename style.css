@@ -42,7 +42,7 @@ h1 {
     font-weight: 700;
 }
 
-.color, .rainbow, .erase, .clear {
+.color, .rainbow, .eraser, .clear {
     background-color: rgb(189, 189, 189);
     padding: 7px;
     cursor: pointer;
